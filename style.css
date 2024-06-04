@@ -658,6 +658,9 @@ body{
 .portfolio-model-body h3{
     font-size: 1.5em;
 }
+.portfolio-model-body p{
+    margin-bottom: 20px;
+}
 .portfolio-model-body img{
     width: 100%;
     margin: 20px 0;
@@ -1042,6 +1045,11 @@ footer a{
         background: rgba(255, 255, 255, 0.1);
         margin:10px 0 22px;
     }
+    /*Theme Button*/
+    .theme-btn{
+        margin-top: 50%;
+        
+    }
     
 
     /*get-in-touch*/
@@ -1054,5 +1062,9 @@ footer a{
     }
     .contact-card .content-btn{
         font-size: 0.8rem;
+    }
+    .service-modal-body{
+        text-align: justify;
+        max-width: 80vh;
     }
 }
