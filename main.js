@@ -130,7 +130,7 @@ var swiper = new Swiper(".mySwiper", {
 /* ---Reveal Animation--- */
 ScrollReveal({
     //reset: true,
-    distance: '20px',   //60px default
+    distance: '60px',
     duration: 2500,
     delay: 100
 });
