@@ -13,7 +13,7 @@ themeButton.addEventListener("click", () => {
 
     localStorage.setItem("saved-theme", getCurrentTheme());
     localStorage.setItem("saved-icon", getCurrentIcon());
-});
+}); 
 
 const getCurrentTheme = () => document.body.classList.contains("dark-theme") ? "dark" : "light";
 const getCurrentIcon = () => themeButton.classList.contains("sun") ? "sun" : "moon";
@@ -130,7 +130,7 @@ var swiper = new Swiper(".mySwiper", {
 /* ---Reveal Animation--- */
 ScrollReveal({
     //reset: true,
-    distance: '60px',
+    distance: '20px',   //60px default
     duration: 2500,
     delay: 100
 });
